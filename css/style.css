@@ -1,3 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue:300,300italic,regular,italic,700,700italic');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Neue', cursive;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.book-app {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  height: 50px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px #3f3a3a solid;
+}
+
 li {
-  list-style-type: none;
+  list-style: none;
+}
+
+.navlist {
+  flex-direction: row;
+  gap: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3f3a3a;
+}
+
+.app-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #3f3a3a;
+}
+
+.dontShow {
+  display: none;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#books_collection {
+  display: flex;
+}
+
+#books-list {
+  border: 5px #3f3a3a solid;
+  border-radius: 5px;
+  width: 90vw;
+  margin-bottom: 20px;
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+
+#books-list li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 800;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 100%;
+}
+
+#books-list li:nth-child(odd) {
+  background-color: rgb(211, 210, 210);
+}
+
+button {
+  padding: 5px;
+  border: 3px #3f3a3a solid;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 3px 3px 1px #3f3a3a;
+  align-self: flex-end;
+  color: #3f3a3a;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+#books_collection hr {
+  width: 100px;
+  margin-top: 10px;
+  border: 1px #3f3a3a solid;
+}
+
+#add_books {
+  width: 70vw;
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+}
+
+#books-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.form-input {
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+input {
+  width: 500px;
+  height: 40px;
+  border: 3px #3f3a3a solid;
+  box-shadow: 3px 3px 1px #3f3a3a;
+}
+
+input::placeholder {
+  color: #3f3a3a;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+/* header */
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px;
+  border: 3px #3f3a3a solid;
+  border-radius: 5px;
+  width: 90vw;
+  height: 50px;
+}
+
+.links {
+  list-style: none;
+}
+
+.navbar_links {
+  display: flex;
+  flex-direction: row;
+}
+
+footer p,
+.logo,
+.nav_link {
+  text-decoration: none;
+  color: #3f3a3a;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.vl {
+  width: 0;
+  height: 20px;
+  border: 1px #3f3a3a solid;
+}
+
+.nav_element {
+  margin: 0 5px;
+}
+
+#contact {
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 80vw;
+  position: fixed;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -30%);
+}
+
+#contact p {
+  margin: 50px 0 30px 0;
+}
+
+#contact p,
+.contact_list {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  border: 5px #3f3a3a solid;
+  background-color: white;
+  padding: 15px 10px;
+  border-radius: 5px;
+  width: 90vw;
+  bottom: 4%;
+  position: fixed;
 }
