@@ -187,11 +187,10 @@ footer p,
 #contact {
   align-items: center;
   justify-content: center;
-  height: 60vh;
   width: 80vw;
   position: fixed;
   left: 50%;
-  top: 35%;
+  top: 40%;
   transform: translate(-50%, -30%);
 }
 
@@ -201,7 +200,7 @@ footer p,
 
 #contact p,
 .contact_list {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -219,4 +218,13 @@ footer {
   width: 90vw;
   bottom: 4%;
   position: fixed;
+}
+
+.date {
+    text-align: center;
+    font-weight: 500;
+}
+
+.form-input {
+    font-size: 50px;
 }
