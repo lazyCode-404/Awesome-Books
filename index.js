@@ -1,5 +1,5 @@
-import Date from './modules/time.js';
-import Book from './modules/Books.js'
+import {DateTime} from './modules/luxon.js';
+import Book from './modules/Books.js';
 
 document.addEventListener('DOMContentLoaded', Book.displayBooks);
 
@@ -55,4 +55,9 @@ addBookToList.addEventListener('click', showBook);
 
 openContact.addEventListener('click', showContact);
 
-document.getElementById('date').innerHTML = Date;
+const dateTime = document.querySelector('#date');
+const clock = () => {
+  const currentDateTime = DateTime.now().toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
+  dateTime.innerHTML = currentDateTime;
+};
+setInterval(clock, 1000);
