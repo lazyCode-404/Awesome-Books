@@ -1,27 +1,21 @@
 {
-  "name": "booklist-app",
+  "name": "newawesome",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kirabo19/Booklist-App.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kirabo19/Booklist-App/issues"
+  "dependencies": {
+    "luxon": "^2.4.0"
   },
-  "homepage": "https://github.com/Kirabo19/Booklist-App#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.26.0",
-    "hint": "^6.2.0"
+    "eslint-plugin-import": "^2.26.0"
   }
 }

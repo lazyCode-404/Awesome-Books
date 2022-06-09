@@ -3,8 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/style.css">
-        <script src="./js/app.js" defer></script>
+        <link rel="stylesheet" href="./index.css">
         <title>Awesome Books</title>
     </head>
     <body>
@@ -12,23 +11,23 @@
             <div class="app-title">Awesome Books</div>
             <nav>
                 <ul class="navlist flex">
-                    <li id = "bk-List"><a href="#">List</a></li>
+                    <li><a id="bk-List" href="#">List</a></li>
                     <li><hr class="vl nav_element"></li>
-                    <li id="add-form"><a class="nav_link" href="#">Add new</a></li>
+                    <li><a id="add-form" class="nav_link" href="#">Add new</a></li>
                     <li><hr class="vl nav_element"></li>
-                    <li id="open-contact"><a class="nav_link" href="#">Contact</a></li>
+                    <li><a id="open-contact" class="nav_link" href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <section class="flex">
+        <p class="date" id="date"></p>
+        <section class="flex" id="books_">
             <h1>All awesome Books</h1>
             <ul id="books-list"></ul>
-
         </section>
       <section id="add_books" class="dontShow">
-        <h1>Add a new book</h1>
             <form id="books-form">
             <div class="form-input flex">
+                <h4 class="book-text">Add a new book</h4>
                     <input type="text" id="title" placeholder="Title:"><br>
                     <input type="text" id="author" placeholder="Author:"><br>
                     <button type="submit">Add</button>
@@ -36,19 +35,22 @@
             </form>
       </section>
       <section id="contact" class="dontShow">
-        <h1>Contact information</h1>
-        <p>
-            Do have any question or you just want t say "Hello"?<br>
-            You can reach out to us! 
-        </p>
-        <ul class="contact_list">
-            <li>Our e-mail: mail@mail.com</li>
-            <li>Our phone number: 0043586534422</li>
-            <li>Our address: Streetname 22, 84503 City, Country</li>
-        </ul>
+        <h2 class="contact-text">Contact information</h2>
+        <di>
+            <p>
+                Do have any question or you just want t say "Hello"?<br>
+                You can reach out to us! 
+            </p>
+            <ul class="contact_list">
+                <li>Our e-mail: mail@mail.com</li>
+                <li>Our phone number: 0043586534422</li>
+                <li>Our address: Streetname 22, 84503 City, Country</li>
+            </ul>
+        </di>
       </section>
       <footer>
         <p class="copyright">Copyright    ...</p>
       </footer>
+      <script src="./index.js" type="module"></script>
     </body>
 </html> 
