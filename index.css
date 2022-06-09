@@ -126,6 +126,7 @@ button {
   flex-direction: column;
   align-items: center;
   gap: 8px;
+  font-size: 50px;
 }
 
 input {
@@ -221,10 +222,6 @@ footer {
 }
 
 .date {
-    text-align: center;
-    font-weight: 500;
-}
-
-.form-input {
-    font-size: 50px;
+  text-align: center;
+  font-weight: 500;
 }
