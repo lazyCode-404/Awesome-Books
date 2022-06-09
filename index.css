@@ -126,7 +126,6 @@ button {
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  font-size: 50px;
 }
 
 input {
@@ -214,7 +213,7 @@ footer {
 .copyright {
   border: 5px #3f3a3a solid;
   background-color: white;
-  padding: 8px 10px;
+  padding: 15px 10px;
   border-radius: 5px;
   width: 90vw;
   bottom: 4%;
@@ -222,6 +221,10 @@ footer {
 }
 
 .date {
-  text-align: center;
-  font-weight: 500;
+    text-align: center;
+    font-weight: 500;
+}
+
+.form-input {
+    font-size: 50px;
 }
