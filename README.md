@@ -17,17 +17,19 @@
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
-git clone https://kirabo19.github.io/Booklist-App/ 
+git clone  https://bwalyanonde.github.io/Awesome-Books/ 
 Main
-cd Html-design 
+cd Awesome books modules 
 
 
 
 
 ## Author
-👤 **Patrick Ndimukulaga*
 👤 **Bwalya Nonde* 
-👤 **Sajjad Rajaee* 
+
+- GitHub: [@BwalyaNonde](https://github.com/BwalyaNonde)
+- Twitter: [nonde_bwalya](https://twitter.com/nonde_bwalya)
+- LinkedIn: [Bwalya Nonde](https://www.linkedin.com/in/bwalya-nonde-5865601a9/)
 
 
 ## 🤝 Contributing
