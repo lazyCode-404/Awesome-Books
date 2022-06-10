@@ -31,23 +31,23 @@ const addNew = document.getElementById('add_books');
 const bookList = document.getElementById('books_');
 const contact = document.getElementById('contact');
 
-function showForm() {
+const showForm = () => {
   addNew.classList.remove('dontShow');
   bookList.classList.add('dontShow');
   contact.classList.add('dontShow');
-}
+};
 
-function showBook() {
+const showBook = () => {
   bookList.classList.remove('dontShow');
   addNew.classList.add('dontShow');
   contact.classList.add('dontShow');
-}
+};
 
-function showContact() {
+const showContact = () => {
   contact.classList.remove('dontShow');
   bookList.classList.add('dontShow');
   addNew.classList.add('dontShow');
-}
+};
 
 openForm.addEventListener('click', showForm);
 
